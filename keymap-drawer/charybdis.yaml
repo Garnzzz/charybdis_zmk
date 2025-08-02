@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis}
 layers:
   QUERTZ:
-  - ESCAPE
+  - '~'
   - '1'
   - '2'
   - '3'
@@ -49,7 +49,7 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
   - '&lt 9 (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SLASH_AND_QUESTION_MARK))'
   - RSHIFT
-  - {t: TAB, h: NUMBERS}
+  - SNIPER
   - SPACE
   - {t: LEFT GUI, h: NAV-FUN}
   - {t: ENTER, h: NUMBERS}
@@ -106,10 +106,10 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 3 AND HASH))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
   - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD NON US BACKSLASH AND PIPE)))
-  - {type: held}
+  - {t: ▽, type: trans}
   - BACK SPACE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 0 AND RIGHT PARENTHESIS))
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -619,7 +619,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
