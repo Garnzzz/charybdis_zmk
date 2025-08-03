@@ -127,7 +127,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ESCAPE
+  - ''
   - {t: F1, h: toggle}
   - F2
   - F3
@@ -198,6 +198,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: FWD, h: LEFT CONTROL}
+  - {t: BACK, h: LEFT GUI}
+  - {t: '&mkp MB2', h: LEFT ALT}
+  - {t: '&mkp MB1', h: LEFT SHIFT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -209,10 +212,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -221,12 +221,12 @@ layers:
   - ZMK Studio
   - {t: ▽, type: trans}
   - {type: held}
+  - L CLK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - R CLK
+  - BACK
   - {t: ▽, type: trans}
   CHG:
   - EP TOG
