@@ -235,6 +235,7 @@
 &trans             &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                                &trans        &trans        &trans          &trans  &trans
                                                              &trans        &trans          &trans
+            >;
          };
 
         scroll_layer {
@@ -260,7 +261,6 @@
                         &trans  &trans  &trans    &trans  &trans
                                 &trans  &trans    &trans
             >;
-            };
         };
     };
 };
