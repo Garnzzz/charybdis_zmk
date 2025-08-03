@@ -235,6 +235,7 @@
 &trans             &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                                &trans        &trans        &trans          &trans  &trans
                                                              &trans        &trans          &trans
+         };
 
         scroll_layer {
             bindings = <
@@ -250,6 +251,7 @@
         };
 
         sniper_layer {
+            label = "SNIPER";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
@@ -258,10 +260,7 @@
                         &trans  &trans  &trans    &trans  &trans
                                 &trans  &trans    &trans
             >;
-
-            label = "SNIPER";
-        };
-            >;
+            };
         };
     };
 };
