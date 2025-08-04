@@ -209,15 +209,15 @@ layers:
   - RIGHT
   - {t: ▽, type: trans}
   - {t: QWERTY, h: toggle}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ZMK Studio
+  - '&soft_off'
+  - ''
   - '&mkp MB3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - M CLK
+  - ''
+  - '&soft_off'
   - ZMK Studio
   - {t: QWERTY, h: toggle}
   - {type: held}
@@ -240,7 +240,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: QWERTY, h: toggle}
   - ''
   - '1'
   - '2'
@@ -271,17 +271,17 @@ layers:
   - Ctl+ C
   - Ctl+ V
   - END
-  - ''
+  - '-'
   - ':'
   - ''
-  - ''
-  - {t: /, h: '-'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   - RET
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: QWERTY, h: toggle}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
