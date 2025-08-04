@@ -58,18 +58,18 @@ layers:
   - DELETE
   - {t: LSHFT, h: sticky}
   RSE:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD RIGHT BRACKET AND RIGHT BRACE)))
   - '@'
@@ -106,29 +106,41 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
   - PAUSE BREAK
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  LWR:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ''
-  - {t: F1, h: toggle}
+  - ''
+  LWR:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - F5
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - ''
+  - F1
   - F2
   - F3
   - F4
@@ -138,39 +150,27 @@ layers:
   - F8
   - F9
   - F10
+  - ''
+  - ''
+  - Ctl+ Z
+  - Ctl+ X
+  - Ctl+ C
+  - Ctl+ V
   - F11
-  - {t: ▽, type: trans}
-  - HOME
-  - PAGE UP
-  - PREVIOUS
-  - PLAY PAUSE
-  - NEXT
-  - {t: ▽, type: trans}
-  - LEFT
-  - DOWN ARROW
-  - UP ARROW
-  - RIGHT
   - DEV TOOLS
-  - {t: ▽, type: trans}
-  - END
-  - PAGE DOWN
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ':'
+  - ''
+  - ''
+  - '-'
+  - ''
+  - ''
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PRINT SCREEN
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - Alt+ PRINT SCREEN
+  - ''
+  - ''
+  - ''
   ADJ:
   - {t: ▽, type: trans}
   - {t: BT, h: '0'}
@@ -229,19 +229,19 @@ layers:
   - BACK
   - R CLK
   CHG:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - '1'
   - '2'
   - '3'
@@ -252,36 +252,36 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - LCTRL
   - LEFT GUI
   - LEFT ALT
   - LSHFT
   - HOME
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - LEFT
+  - UP
+  - DOWN ARROW
+  - RIGHT
+  - ''
+  - ''
   - Ctl+ Z
   - Ctl+ X
   - Ctl+ C
   - Ctl+ V
   - END
+  - ''
+  - ':'
+  - ''
+  - ''
+  - {t: /, h: '-'}
+  - ''
+  - RET
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: QWERTY, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
